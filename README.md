@@ -80,13 +80,19 @@ Run its cells in order with `build_dashboard.py` in the same directory. The note
 
 ## Deploy with GitHub Pages
 
-1. Commit and push the project to a public GitHub repository, with `index.html` at the repository root.
-2. Open the repository's **Settings → Pages**.
-3. Under **Build and deployment**, set **Source** to **Deploy from a branch**.
-4. Select the branch containing `index.html` and choose **/(root)**, then save.
-5. Once GitHub reports a successful deployment, use the site URL shown in Pages settings to open the dashboard and check its filters and comparison panel.
+Live Dashboard: https://beromanowski7.github.io/SIADS521-Dashboard/
 
-GitHub Pages serves the committed HTML file; it does not run the Python builder. Rebuild locally and commit the refreshed `index.html` when publishing dashboard changes. See [GitHub's publishing-source documentation](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site).
+This project is currently hosted using GitHub Pages. The following steps explain how to reproduce the deployment:
+
+1. Commit and push the project to a public GitHub repository, with index.html at the repository root.
+2. Open the repository's Settings → Pages.
+3. Under Build and deployment, set Source to Deploy from a branch.
+4. Select the main branch and choose /(root), then save.
+5. Once GitHub reports a successful deployment, open the published URL and verify that the filters, charts, and comparison panel work correctly.
+
+GitHub Pages serves the committed HTML file; it does not execute the Python build script. To publish future dashboard changes, regenerate index.html locally, commit the updated file, and push it to GitHub.
+
+For additional information, see GitHub's publishing-source documentation: https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site
 
 ## Data source, licensing, and attribution
 
