@@ -4,6 +4,14 @@ An interactive dashboard for the University of Michigan **SIADS 521: Visual Expl
 
 The dashboard combines four linked Plotly visualizations, shared year filters, and a decade comparison panel in a self-contained HTML file. Users can explore historical economic conditions in a browser without installing Python or connecting to the internet.
 
+## Video Walkthrough
+
+Link: https://beromanowski7.github.io/SIADS521-Dashboard/Dashboard_Walkthrough.mp4
+
+The walkthrough demonstrates the linked filtering controls, explores differences between the 1970s and 1990s, and highlights the Compare Decades feature.
+
+The recording is hosted directly through GitHub Pages and is accessible without authentication.
+
 ## Visualizations and linked filtering
 
 | Visualization | Purpose |
