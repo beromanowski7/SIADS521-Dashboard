@@ -1,0 +1,30 @@
+# Local Python environments and bytecode
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+
+# Generated notebook checkpoints and editor documents
+.ipynb_checkpoints/
+.virtual_documents/
+.vscode/
+.idea/
+
+# Local configuration, credentials, and operating-system files
+.env
+.env.*
+!.env.example
+.DS_Store
+Thumbs.db
+
+# Test/tool caches and logs
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+*.log
+
+# Superseded dashboard export; the public entry file is index.html
+SIADS521_economy_dashboard.html
